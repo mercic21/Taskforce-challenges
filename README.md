@@ -14,19 +14,25 @@ The repository is organized as follows:
 2. `gallery` directory which contains the responsive photo gallery web application
 
 ### Running the Challenges
-
-1. Navigate to the `challenges` directory:
+1. Navigate to the `TASKFORCE-CHALLENGES` directory:
+     ```sh
+    cd TASKFORCE-CHALLENGES
+    ```
+2. Navigate to the `challenges` directory:
     ```sh
     cd challenges
     ```
-2. You can run the JavaScript files using Node.js. For example:
+3. You can run the JavaScript files using Node.js. For example:
     ```sh
     node arrayMap.js
     node stringTransform.js
     ```
 
 ### Running the Photo Gallery
-
+1. Navigate to the `TASKFORCE-CHALLENGES` directory:
+     ```sh
+    cd TASKFORCE-CHALLENGES
+    ```
 1. Navigate to the `gallery` directory:
     ```sh
     cd gallery
