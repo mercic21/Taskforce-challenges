@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animal Cards</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="card-container">
+        <div class="card" >
+            <img src="./impala.jpg" alt="Impala" class="responsive-img">
+            <div class="card-text">
+                <h2>Impala</h2>
+                <p>AKAGERA</p>
+                <a href="#" id="impala-link" class="know-more" target="_blank">Know more ➜</a>
+            </div>
+        </div>
+        <div class="card"  >
+            <img src="./elephant.jpg" alt="Elephant" class="responsive-img">
+            <div class="card-text">
+                <h2>Elephant</h2>
+                <p>Vietnam</p>
+                <a href="#" id="elephant-link"  class="know-more" target="_blank">Know more ➜</a>
+            </div>
+        </div>
+        <div class="card"  >
+            <img src="./tiger.jpg" alt="Tiger" class="responsive-img">
+            <div class="card-text">
+                <h2>Tiger</h2>
+                <p>Asia</p>
+                <a href="#" id="tiger-link" class="know-more" target="_blank">Know more ➜</a>
+            </div>
+        </div>
+        <div class="card" >
+            <img src="./kangaroo.jpg" alt="Kangaroo" class="responsive-img">
+            <div class="card-text">
+                <h2>Kangaroo</h2>
+                <p>Australia</p>
+                <a href="#" id="kangaroo-link" class="know-more" target="_blank">Know more ➜</a>
+            </div>
+        </div>
+    </div>
+    <div id="myModal" class="modal">
+        <span class="close">&times;</span>
+        <img class="modal-content" id="img01">
+        <div id="caption"></div>
+        <a class="prev" id="prev">&#10094;</a>
+        <a class="next" id="next">&#10095;</a>
+    </div>
+    <script src="scripts.js"></script>
+</body>
+</html>
