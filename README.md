@@ -60,17 +60,18 @@ This is a responsive photo gallery web application. It displays a series of anim
 
 ### Array Subarray Sum Approach
 
-To solve the subarray sum challenge, I used a sliding window approach:
-- Maintain a running sum of the current window.
-- Expand and contract the window while checking if the running sum matches the target.
+1. Setup: I started by making a hash table (seen) to remember sums we've seen and their positions. This helps us quickly check past sums.
 
+2. Sum and Check: As I walked through the array, I kept a running total (currentSum). If this total hit the target, I knew we found the subarray and returned true.
+
+3. Find Needed Sum: If not, I calculated what sum we needed (needed = currentSum - target). If this needed sum was in the hash table, it meant we found our subarray and returned true. If not, I updated the hash table with the current sum and kept going. If I finished the loop without finding the subarray, I returned false.
 This approach ensures a time complexity of \(O(n)\) and a space complexity of \(O(1)\).
 
 ### String Transformation Approach
 
 To solve the string transformation challenge:
-- Calculate the length of the string.
-- Apply transformations based on divisibility by 3, 5, and 15.
+- I calculated the length of the string.
+- Applied transformations based on divisibility by 3, 5, and 15.
 
 This approach is straightforward and efficient, with a time complexity of \(O(n)\) and space complexity of \(O(n)\).
 
