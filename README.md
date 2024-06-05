@@ -8,20 +8,10 @@ Welcome to my coding challenge and photo gallery project! This repository contai
 The repository is organized as follows:
 
 
-## Setup Instructions
+1. `challenges` directory which contains challenges:
+`arrayMap.js`, `stringTransform.js`
 
-### Cloning the Repository
-
-1. Sign in to your GitHub account.
-2. Create a new public repository for this challenge.
-3. Clone the repository to your local machine:
-    ```sh
-    git clone https://github.com/mercic21/Taskforce-challenges.git
-    ```
-4. Navigate to the project directory:
-    ```sh
-    cd your-repository-name
-    ```
+2. `gallery` directory which contains the responsive photo gallery web application
 
 ### Running the Challenges
 
